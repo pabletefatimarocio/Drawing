@@ -6,9 +6,9 @@
 .main-container {
     background-color: blueviolet;
     height: 100vh;
-    display: flex;
+    display:flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 
 #brush-size {
@@ -19,7 +19,11 @@
     appearance: none;
     background-color: rgba(2, 1, 3, 0.377); 
     border-radius: 10px; 
+    cursor:pointer;
 }
+
+
+
 
 canvas {
     background-color: #fff;
